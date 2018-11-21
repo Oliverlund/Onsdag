@@ -35,6 +35,8 @@ while menu != 2:
             import os
             os.system("cls")
 
+            ai = random.randint(1,3)
+            
             if player == 1 and ai == 1:
                 print("You picked: ", player)
                 print("AI picked: ", ai)
